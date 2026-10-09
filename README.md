@@ -160,6 +160,7 @@ Edit `.env`:
 ```ini
 GEMINI_API_KEY=your_actual_google_ai_studio_api_key_here
 GEMINI_MODEL=gemini-3.6-flash
+GROK_API_KEY=your_actual_grok_ai_studio_api_key_here
 ```
 
 ### Using Streamlit Secrets
