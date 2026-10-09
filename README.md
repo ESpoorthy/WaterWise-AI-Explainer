@@ -1,6 +1,13 @@
 # WaterWise AI — Water Supply & Distribution Process Explainer Bot
 **Project 26** | **Industry Domain: Water Utilities / Municipal Services**
 
+Developed by:
+
+Katakam Sahithi Rithvika
+Sai Spoorthy Eturu
+Kommera Harihansika
+Institution: BVRIT Hyderabad College of Engineering for Women
+
 ---
 
 ## 1. Problem Statement & Scope
@@ -160,7 +167,7 @@ Edit `.env`:
 ```ini
 GEMINI_API_KEY=your_actual_google_ai_studio_api_key_here
 GEMINI_MODEL=gemini-3.6-flash
-GROK_API_KEY=your_actual_grok_ai_studio_api_key_here
+GROQ_API_KEY=your_actual_grok_ai_studio_api_key_here
 ```
 
 ### Using Streamlit Secrets
@@ -168,6 +175,7 @@ Create `.streamlit/secrets.toml`:
 ```toml
 GEMINI_API_KEY = "your_actual_google_ai_studio_api_key_here"
 GEMINI_MODEL = "gemini-3.6-flash"
+GROQ_API_KEY=your_actual_grok_ai_studio_api_key_here
 ```
 
 > **Security Note:** `.env` and `.streamlit/secrets.toml` are registered in `.gitignore` to prevent committing secrets to version control. If no API key is provided, the app will still start and operate in **Offline Learning Mode**.
@@ -230,5 +238,24 @@ To deploy to Streamlit Community Cloud:
    ```toml
    GEMINI_API_KEY = "your_google_ai_studio_api_key"
    GEMINI_MODEL = "gemini-3.6-flash"
+   GROQ_API_KEY=your_actual_grok_ai_studio_api_key_here
    ```
 4. Click **Deploy**.
+
+10. Team
+
+**Project Team — BVRIT Hyderabad College of Engineering for Women**
+
+- Katakam Sahithi Rithvika
+- Sai Spoorthy Eturu
+- Kommera Harihansika
+
+**Project:** Water Supply & Distribution Process Explainer Bot  
+**Domain:** Water Utilities / Municipal Services  
+**Core Technologies:** Python, Streamlit, Google AI Studio API and Gemini Flash models
+
+---
+
+*An educational Generative AI solution for clearer water utility communication and responsible public awareness.*
+
+Built with ❤️
