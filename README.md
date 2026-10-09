@@ -3,9 +3,9 @@
 
 Developed by:
 
-Katakam Sahithi Rithvika
-Sai Spoorthy Eturu
-Kommera Harihansika
+- Katakam Sahithi Rithvika - 24WH1A6615
+- Sai Spoorthy Eturu - 24WH1A6633
+- Kommera Harihansika - 25WH5A6601
 
 Institution: BVRIT Hyderabad College of Engineering for Women
 
@@ -176,7 +176,7 @@ Create `.streamlit/secrets.toml`:
 ```toml
 GEMINI_API_KEY = "your_actual_google_ai_studio_api_key_here"
 GEMINI_MODEL = "gemini-3.6-flash"
-GROQ_API_KEY=your_actual_grok_ai_studio_api_key_here
+GROQ_API_KEY= "your_actual_grok_ai_studio_api_key_here"
 ```
 
 > **Security Note:** `.env` and `.streamlit/secrets.toml` are registered in `.gitignore` to prevent committing secrets to version control. If no API key is provided, the app will still start and operate in **Offline Learning Mode**.
@@ -239,7 +239,7 @@ To deploy to Streamlit Community Cloud:
    ```toml
    GEMINI_API_KEY = "your_google_ai_studio_api_key"
    GEMINI_MODEL = "gemini-3.6-flash"
-   GROQ_API_KEY=your_actual_grok_ai_studio_api_key_here
+   GROQ_API_KEY= "your_actual_grok_ai_studio_api_key_here"
    ```
 4. Click **Deploy**.
 
